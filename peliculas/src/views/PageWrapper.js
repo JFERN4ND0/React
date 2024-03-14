@@ -202,41 +202,11 @@ export default function PageWrapper(props) {
                   </li>
                   <li className="dropdown first">
                     <a
+                      href="/blog"
                       className="btn btn-default dropdown-toggle lv1"
-                      data-toggle="dropdown"
-                      data-hover="dropdown"
                     >
-                      movies
-                      <i className="fa fa-angle-down" aria-hidden="true"></i>
+                      BLOG
                     </a>
-                    <ul className="dropdown-menu level1">
-                      <li className="dropdown">
-                        <a
-                          href="#"
-                          className="dropdown-toggle"
-                          data-toggle="dropdown"
-                        >
-                          Movie grid<i className="ion-ios-arrow-forward"></i>
-                        </a>
-                        <ul className="dropdown-menu level2">
-                          <li>
-                            <a href="moviegrid.html">Movie grid</a>
-                          </li>
-                          <li>
-                            <a href="moviegridfw.html">movie grid full width</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="movielist.html">Movie list</a>
-                      </li>
-                      <li>
-                        <a href="moviesingle.html">Movie single</a>
-                      </li>
-                      <li className="it-last">
-                        <a href="seriessingle.html">Series single</a>
-                      </li>
-                    </ul>
                   </li>
                   <li className="dropdown first">
                     <a
@@ -283,7 +253,7 @@ export default function PageWrapper(props) {
                       </li>
                     </ul>
                   </li>
-                  <li className="dropdown first">
+                  <li className="dropdown  first">
                     <a
                       className="btn btn-default dropdown-toggle lv1"
                       data-toggle="dropdown"
